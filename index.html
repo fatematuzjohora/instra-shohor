@@ -77,6 +77,71 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
+       <!------------------------------ 
+               Bonus Part
+    -------------------------------->
+    <section id="extra-section" class="container mb-4">
+        <h1 class="mx-auto fw-bold">Questions</h1>
+        <div
+          class="accordion accordion-flush border border-2 rounded border-primary"
+          id="accordionFlushExample"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed rounded-top"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+               What Does JS Event Loop ?
+                          </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Much of the work in a browser or node program is done on the host system, rather than in JS. <br>
+                When an ajax call is made, the host system is in charge of fetching the data. <br>
+                And then run the JS engine line's following sentence. <br> 
+                When ajax is finished, the result is returned to the callback line. <br>
+                If there is nothing else in the line, callback will be executed right away, if there is, callback will be executed when it has finished. <br>
+                The non-blocking characteristic of JavaScript distinguishes it from other languages in that it allows a system process, such as ajax, to begin executing the next code without waiting for the previous request to complete. <br>
+                At any given time, the JavaScript engine will never handle more than one statement.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed rounded-bottom"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                What is the difference between Local Storage and Session Storage?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
         <footer></footer>
 
         <!-- add javascript  file  -->
